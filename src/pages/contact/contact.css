@@ -1,0 +1,156 @@
+#contact{
+    width: 100vw;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 1rem;   
+}
+
+#contactBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem
+}
+
+#contactBodyH{
+    display: flex;
+    gap: 0.2px;
+}
+
+#contactBodyH h6{
+    font-size: 9rem;
+    font-weight: bold
+}
+
+#socialsC{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+#socialC p{
+    font-size: 1.2rem;
+}
+
+#socialsC ul{
+    display: flex;
+    gap: 0.2rem;
+}
+
+#socialsC ul li a{
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cl{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem
+}
+
+#contactBody form{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#contactBody form input{
+    border: 0.5px solid purple;
+    padding: 8px;
+    font-size: 1rem;
+    width:8rem;
+    height: 3.4rem;
+    border-radius: 5px;
+}
+
+#contactBody form textarea{
+    border: 0.5px solid purple;
+    padding: 8px;
+    font-size: 1rem;
+    height: 6rem;
+    width:14rem;
+    border-radius: 5px;
+}
+
+#contactBody form input::placeholder, #contactBody form textarea::placeholder{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+
+#contactBody form button{
+    color: #ffffff;
+    background-color: purple;
+    font-size: 1rem;
+    width: 9rem;
+    height: 3.4rem;
+}
+
+#cFoot{
+    display: flex;
+    align-items: center;
+    gap:0.2rem;
+}
+
+#cFoot h1{
+    font-size: 1.2rem;
+}
+
+#cFoot img{
+    width: 1rem;
+    height: 1rem;
+}
+
+#not{
+    font-size: 1rem;
+    color: mediumaquamarine;
+}
+
+@media (min-width: 250px) and (max-width: 480px){
+    #contactBodyH h6{
+        font-size: 2.5rem;
+        line-height: 70px;
+    }
+    #socialsC{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #socialC p{
+        font-size: 0.8rem;
+    }
+    #socialsC ul li a{
+        font-size: 0.8rem;
+    }
+    #contactBody form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #contactBodyH h6{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+    #socialsC{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #socialC p,#socialsC ul li a{
+        font-size: 0.9rem;
+    }
+    #contactBody form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,135 @@
+#projects{
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#ph1{
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.pSections{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pSections h2{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.projects{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project{
+    width: 32%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+ .mobile{
+    width: 32%;
+    height: 700px;
+    position: relative;
+}
+
+.mobile img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.project img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.projectFoot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #e21ee2;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.projectFoot h1, .mobileFoot h1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #113188;
+}
+
+.projectFoot a, .mobileFoot a{
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(9, 36, 160);
+}
+
+.mobileFoot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #FF00FF;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    .pSections{
+        width: 100%;
+    }
+    .projects{
+        justify-content: center;
+    }
+    
+    .project,.mobile{
+        width: 80%
+    }
+
+    .pSections h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .projectFoot h1, .mobileFoot h1{
+        font-size: 0.8rem;
+    }
+    
+    .projectFoot a, .mobileFoot a{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .pSections{
+        width: 80%;
+    }
+}
