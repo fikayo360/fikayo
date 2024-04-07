@@ -52,8 +52,8 @@
 }
 
 #navWrap img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display: none;
 }
 
@@ -113,6 +113,11 @@
     display: none;
 }
 
+#navMobile header img{
+    width: 15px;
+    height: 15px;
+}
+
 @media (min-width: 250px) and (max-width: 1024px){
     #navWrap{
         width: 80%;
@@ -158,8 +163,19 @@
     }
 
 }
+/* 
+@media (min-width: 250px) and (max-width: 360px){
+    #navWrap img{
+        width: 15px;
+        height: 15px;
+    }
+    #navMobile header img{
+
+    }
+} */
 
 @media (min-width: 250px) and (max-width: 360px){
+  
     #heroOther img{
         width:15rem;
         height: 15rem;
@@ -183,8 +199,8 @@
 
     #pOther2{
         font-size: 0.6rem;
-        width: 70%;
-        line-height:1.5rem;
+        width: 80%;
+        line-height:1.3rem;
         margin-bottom: 0.3rem;
     }
 
@@ -237,8 +253,8 @@
 
     #pOther2{
         font-size: 0.7rem;
-        width: 70%;
-        line-height:1.7rem;
+        width: 80%;
+        line-height:1.5rem;
         margin-bottom: 0.3rem;
     }
 
@@ -246,11 +262,6 @@
         font-size: 1.8rem;
         font-weight: bold;
         color: #ffffff;
-    }
-
-    #navMobile header img{
-       width: 25px;
-       height: 25px;
     }
 
     #navMobile ul{
@@ -292,19 +303,14 @@
 
     #pOther2{
         font-size: 0.8rem;
-        width: 75%;
-        line-height:1.8rem;
+        width: 80%;
+        line-height:1.6rem;
         /* margin-bottom: 0.3rem; */
     }
     #navMobile header h1{
         font-size: 2rem;
         font-weight: bold;
         color: #ffffff;
-    }
-
-    #navMobile header img{
-       width: 23px;
-       height: 23px;
     }
 
     #navMobile ul{
@@ -353,11 +359,6 @@
         font-size: 2.2rem;
         font-weight: bold;
         color: #ffffff;
-    }
-
-    #navMobile header img{
-       width: 25px;
-       height: 25px;
     }
 
     #navMobile ul{
