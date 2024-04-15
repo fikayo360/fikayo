@@ -69,7 +69,14 @@
     height: 25rem;
 }
 
-#pOther1{
+.pOther1{
+    width: 50%;
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.specialTxt{
     width: 50%;
     font-size: 3.8rem;
     font-weight: bold;
@@ -181,7 +188,7 @@
         height: 15rem;
     }
     
-    #pOther1{
+    .pOther1{
         font-size: 1.6rem;
         line-height: 2rem;
         width: 70%;
@@ -199,7 +206,7 @@
 
     #pOther2{
         font-size: 0.6rem;
-        width: 80%;
+        width: 90%;
         line-height:1.3rem;
         margin-bottom: 0.3rem;
     }
@@ -235,7 +242,7 @@
         height: 17rem;
     }
     
-    #pOther1{
+    .pOther1{
         font-size: 1.8rem;
         line-height: 2.2rem;
         width: 70%;
@@ -253,7 +260,7 @@
 
     #pOther2{
         font-size: 0.7rem;
-        width: 80%;
+        width: 90%;
         line-height:1.5rem;
         margin-bottom: 0.3rem;
     }
@@ -285,7 +292,7 @@
         height: 19rem;
     }
     
-    #pOther1{
+    .pOther1{
         font-size: 1.9rem;
         line-height: 2.4rem;
         width: 75%;
@@ -303,7 +310,7 @@
 
     #pOther2{
         font-size: 0.8rem;
-        width: 80%;
+        width: 90%;
         line-height:1.6rem;
         /* margin-bottom: 0.3rem; */
     }
@@ -333,7 +340,7 @@
         height: 22rem;
     }
     
-    #pOther1{
+    .pOther1{
         font-size: 2rem;
         line-height: 2.6rem;
         width: 77%;
@@ -377,7 +384,7 @@
         height: 23rem;
     }
     
-    #pOther1{
+    .pOther1{
         font-size: 3rem;
         line-height: 4rem;
     }

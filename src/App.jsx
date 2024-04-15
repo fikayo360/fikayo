@@ -6,6 +6,7 @@ import Skills from './pages/skills/skills'
 import Projects from './pages/projects/projects'
 import Contact from './pages/contact/contact'
 import { useEffect } from 'react'
+import 'animate.css';
 
 function App() {
 

@@ -15,6 +15,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(15, 15, 15, 0.87);
+  --animate-delay: 2s;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -84,11 +85,8 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
-  border-color: #646cff;
-}
-
 button:focus,input:focus,textarea:focus{
   outline: none;
+  border:none
 }
  

@@ -1,9 +1,13 @@
 import './skills.css'
+import { useInView } from 'react-intersection-observer';
 
+   
 const Skills = () => {
+    const [ref, inView] = useInView();
+
     return (
         <section id='skills'>
-            <h1 id='skillsId'>My skills</h1>
+            <h1 id='skillsId' className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>My skills</h1>
             <div id='skillContent'>
                 <div className='skill' id='col1'>
                     <h1>html</h1>

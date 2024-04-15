@@ -1,9 +1,11 @@
 import './projects.css'
+import { useInView } from 'react-intersection-observer';
 
 const Projects = ( ) => {
+    const [ref, inView] = useInView();
     return(
         <section id='projects'>
-            <h1 id='ph1'>My projects</h1>
+            <h1 id='ph1' className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>My projects</h1>
             <div className='pSections'>
                <h2>server side projects</h2> 
                <div className='projects'>

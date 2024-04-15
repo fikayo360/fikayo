@@ -1,12 +1,14 @@
 import './about.css'
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+    const [ref, inView] = useInView();
     return(
-        <section id='about'>
+        <section id='about' >
             <div id='aboutWrap'>
                 <div id='aboutLeft'>
-                    <h2>About fikayo</h2>
-                    <p>
+                    <h2 className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>About fikayo</h2>
+                    <p className={`animate__animated ${inView?'animate__fadeIn':''} animate__slow`} ref={ref}>
                     By day (and sometimes night, fueled by questionable amounts of caffeine), 
                     I'm a developer with 3 years of experience wrangling code into beautiful, functional applications. 
                     My weapon of choice? A potent blend of React, Node.js, databases, and React Native – basically, 
