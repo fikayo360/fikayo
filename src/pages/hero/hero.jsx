@@ -31,7 +31,7 @@ const Hero = () => {
             <nav id="heroNav">
                 <div id='navWrap'>
                     <div id='navWrapH'><h1>FIKAYO</h1><i></i></div>
-                    <ul>
+                    <ul> 
                     <li><a href='#hero'>home</a></li>
                     <li><a href='#about'>about</a></li>
                     <li><a href='#projects'>projects</a></li>
