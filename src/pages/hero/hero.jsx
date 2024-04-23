@@ -67,7 +67,7 @@ const Hero = () => {
 
                  <div id='heroBtns'>
                     <button id="heroBtn1"><a href='#contact'>contact me</a></button>
-                    <button id="heroBtn2"><a href='https://drive.google.com/file/d/17aOo_0MAP455SuQBnIZKhy7QPkMa4D4u/view?usp=drive_link' >download CV</a></button>
+                    <button id="heroBtn2"><a href='https://drive.google.com/file/d/1F_Q0cQneJ_glkomjIFW9JzqyBPjmmKVc/view?usp=sharing' >download CV</a></button>
                     
                  </div>
             </div>
