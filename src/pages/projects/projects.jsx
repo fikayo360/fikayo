@@ -10,27 +10,27 @@ const Projects = ( ) => {
                <h2>server side projects</h2> 
                <div className='projects'>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600'/>
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>chirpApi</h1> <a href='https://github.com/fikayo360/chirpBackend'>github</a></div>
                 </div>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600' />
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600' />
                     <div className='projectFoot'><h1 className='projectName'>Vidme api</h1><a href='https://github.com/fikayo360/vidmeBackend'>github</a></div>
                 </div>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600'/>
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>fintech api</h1><a href='https://github.com/fikayo360/fintechAppServer'>github</a></div>
                 </div>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600'/>
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>ecommerce api </h1><a>github</a></div>
                 </div>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600'/>
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>foodapp api</h1><a href='https://github.com/fikayo360/foodbaeServer'>github</a></div>
                 </div>
                 <div className='project'>
-                    <img src='https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=600'/>
+                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>scrapper bot</h1><a href='https://github.com/fikayo360/skrapper'>github</a></div>
                 </div>
                </div>
@@ -44,8 +44,8 @@ const Projects = ( ) => {
                     <div className='projectFoot'><h1 className='projectName'>Zoka photography</h1><a href='http://zokaphotography.netlify.app/'>visit</a></div>
                 </div>
                 <div className='project'>
-                    <img src='beautyPlus.png'/>
-                    <div className='projectFoot'><h1 className='projectName'>beauty-plus</h1><a href='https://beautypluz.netlify.app/'>visit</a></div>
+                    <img src='rychard.jpg'/>
+                    <div className='projectFoot'><h1 className='projectName'>ryan photography </h1><a href='https://beautypluz.netlify.app/'>visit</a></div>
                 </div>
                 <div className='project'>
                     <img src='photono.png' />

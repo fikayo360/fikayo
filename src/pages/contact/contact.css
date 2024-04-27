@@ -58,7 +58,7 @@
 }
 
 #contactBody form input{
-    border: 0.5px solid purple;
+    border: 0.5px solid rgb(71, 70, 71);
     padding: 8px;
     font-size: 1rem;
     width:8rem;
@@ -67,13 +67,18 @@
 }
 
 #contactBody form textarea{
-    border: 0.5px solid purple;
+    border: 0.5px solid rgb(114, 113, 114);
     padding: 8px;
     font-size: 1rem;
     height: 6rem;
     width:14rem;
     border-radius: 5px;
 }
+
+#contactBody form input, #contactBody form textarea{
+    border-color: none;
+}
+
 
 #contactBody form input::placeholder, #contactBody form textarea::placeholder{
     font-size: 1rem;

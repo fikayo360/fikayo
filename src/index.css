@@ -70,7 +70,12 @@ html{
 
 h1 {
   font-size: 3.2em;
+}
 
+input,textarea{
+  
+
+  outline:none
 }
 
 
@@ -86,6 +91,7 @@ button {
 }
 
 button:focus,input:focus,textarea:focus{
+  border-color: none;
   outline: none;
   border:none
 }

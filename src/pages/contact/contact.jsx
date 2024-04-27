@@ -37,7 +37,7 @@ const Contact = () => {
                     <ul>
                     <li><a href='https://github.com/fikayo360'>github</a></li>
                         <li><a href='https://www.instagram.com/fikayoadele/?hl=en'>instagram</a></li>
-                        <li><a href='www.linkedin.com/in/fikayo-adele'>linkedin</a></li>
+                        <li><a href='https://www.linkedin.com/in/fikayo-adele/'>linkedin</a></li>
                     </ul>
                 </div>
                 <p>you can also send me an Email</p>
