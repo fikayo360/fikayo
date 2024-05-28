@@ -1,30 +1,47 @@
 import './hero.css'
 import { useState } from 'react'
-import { useRef } from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { useInView } from 'react-intersection-observer';
-
-    
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useEffect, useRef } from 'react';
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
 
 const Hero = () => {
     const [navActive,setNavActive] = useState(false)
     const toggleMobileNav = () => {
        setNavActive((prev) => !prev)
     }
-    const [ref, inView] = useInView();
+   
+    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(ScrollTrigger)
+
+    const { ref, inView } = useInView({threshold:0.1});
+
+    useGSAP(()=>{
+        gsap.from('.nmItems',{
+            duration: 1,
+            x: '-100%',
+            stagger: 0.15, 
+            ease: 'power3.inOut',
+         })
+    },[inView])
+
+
+
     return(
         <section id="hero">
             {
-                 navActive? (<div id='navMobile' onClick={toggleMobileNav} className={`animate__animated ${inView?'animate__fadeIn':''}`} ref={ref}>
+                 navActive? (<div id='navMobile' onClick={toggleMobileNav} ref={ref}>
                  <header>
                      <h1>fikayo</h1>
                      <img src='./close.png'/>
                  </header>
                  <ul id='navMobileList'>
-                             <li className={`nmItems animate__animated ${inView?'animate__fadeInDown animate__delay-0.4s animate__slow':''}`} ref={ref}> <a href='#contact' >contact</a></li>   
-                             <li className={`nmItems animate__animated ${inView?'animate__fadeInDown animate__delay-0.3s animate__slow':''}`} ref={ref}><a href='#about'>about</a></li>
-                             <li className={`nmItems animate__animated ${inView?'animate__fadeInDown animate__delay-0.3s animate__slow':''}`} ref={ref}><a href='#skills'>skills</a></li> 
-                             <li className={`nmItems animate__animated ${inView?'animate__fadeInDown animate__delay-0.1s animate__slow':''}`} ref={ref}><a href='#projects'>projects</a></li> 
+                             <li className='nmItems'> <a href='#contact' >contact</a></li>   
+                             <li className='nmItems'><a href='#about'>about</a></li>
+                             <li className='nmItems'><a href='#skills'>skills</a></li> 
+                             <li className='nmItems'><a href='#projects'>projects</a></li> 
                  </ul>
              </div>):null
             }

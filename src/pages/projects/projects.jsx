@@ -2,36 +2,34 @@ import './projects.css'
 import { useInView } from 'react-intersection-observer';
 
 const Projects = ( ) => {
-    const [ref, inView] = useInView();
+  
     return(
         <section id='projects'>
-            <h1 id='ph1' className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>My projects</h1>
+            <h1 id='ph1'>My projects</h1>
             <div className='pSections'>
                <h2>server side projects</h2> 
                <div className='projects'>
-                <div className='project'>
+               <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>chirpApi</h1> <a href='https://github.com/fikayo360/chirpBackend'>github</a></div>
-                </div>
-                <div className='project'>
-                    <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600' />
-                    <div className='projectFoot'><h1 className='projectName'>Vidme api</h1><a href='https://github.com/fikayo360/vidmeBackend'>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>movie reservation system express js</h1> <a href='https://github.com/fikayo360/movieExpress'>github</a></div>
                 </div>
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>fintech api</h1><a href='https://github.com/fikayo360/fintechAppServer'>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>movie reservation system nest js</h1> <a href='https://github.com/fikayo360/movieNest'>github</a></div>
                 </div>
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>ecommerce api </h1><a>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>fintech wallet api</h1><a href='https://github.com/fikayo360/fintechAppServer'>github</a></div>
                 </div>
+            
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
                     <div className='projectFoot'><h1 className='projectName'>foodapp api</h1><a href='https://github.com/fikayo360/foodbaeServer'>github</a></div>
                 </div>
+
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>scrapper bot</h1><a href='https://github.com/fikayo360/skrapper'>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>mini email harvester</h1><a href='https://github.com/fikayo360/skrapper'>github</a></div>
                 </div>
                </div>
             </div>

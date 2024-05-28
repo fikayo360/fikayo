@@ -2,26 +2,22 @@ import './about.css'
 import { useInView } from 'react-intersection-observer';
 
 const About = () => {
-    const [ref, inView] = useInView();
+
     return(
         <section id='about' >
             <div id='aboutWrap'>
                 <div id='aboutLeft'>
-                    <h2 className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>About fikayo</h2>
-                    <p className={`animate__animated ${inView?'animate__fadeIn':''} animate__slow`} ref={ref}>
-                    By day (and sometimes night, fueled by questionable amounts of caffeine), 
-                    I'm a developer with 3 years of experience wrangling code into beautiful, functional applications. 
-                    My weapon of choice? A potent blend of React, Node.js, databases, and React Native – basically, 
-                    I can build things for the web and your phone.
+                    <h2 >About </h2>
+                    <p >
+                    my name is fikayo and I'm a developer with 3 years of experience wrangling code into beautiful, functional applications. 
+                    My tech stack is a potent blend of React, Node.js, databases, and React Native – basically but i am mainly backend focused, 
+                    My passion extends beyond the lines of code. I'm constantly on the lookout for new technologies and best practices, actively learning and keeping my skillset sharp. 
+                    Effective communication and collaboration are also key to my approach. I thrive in team environments, 
+                    working hand-in-hand with designers and stakeholders to deliver projects that not only meet technical requirements but also exceed user expectations.
 
-                    When I'm not battling compiler errors or deciphering cryptic database messages, you can find me:
-
-                    Googlin' like a champ for the most obscure coding solutions (because hey, even Stack Overflow has its limits),
-                    Fueling my caffeine addiction with enough coffee to power a small village,
-                    Explaining to my family why staring at a screen for hours on end is actually "work" (it's a struggle, trust me),
-                    But in all seriousness, I'm passionate about building things that make a difference.
-                    Whether it's a sleek web app or a handy mobile tool, I love the challenge of taking an idea and turning it into reality. 
-                    So, if you're looking for a developer who's equal parts skilled and slightly sleep-deprived (it's a badge of honor!), then hit me up!
+                    Let's face it, the web development landscape is a fast-moving beast. But that's exactly what excites me!
+                    I'm always looking for new challenges and opportunities to push my boundaries. So, whether you're looking for a skilled developer to tackle
+                    your next project or simply someone passionate about the future of web development, I'd love to connect.
                     </p>
                 </div>
 

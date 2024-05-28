@@ -1,13 +1,26 @@
 import './skills.css'
-import { useInView } from 'react-intersection-observer';
-
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useEffect, useRef } from 'react';
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
    
 const Skills = () => {
-    const [ref, inView] = useInView();
+    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(ScrollTrigger)
+
+    useGSAP(()=>{
+        gsap.from('.skill',{
+            scrollTrigger: '#skills', 
+            duration: 0.3,
+            y: '-20%',
+            stagger: 0.1, 
+            ease: 'power3.inOut',
+         })
+    },[])
 
     return (
         <section id='skills'>
-            <h1 id='skillsId' className={`animate__animated ${inView?'animate__fadeInUp':''}`} ref={ref}>My skills</h1>
+            <h1 id='skillsId'>My skills</h1>
             <div id='skillContent'>
                 <div className='skill' id='col1'>
                     <h1>html</h1>
