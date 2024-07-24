@@ -31,10 +31,10 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-.project{
+.project, .mobile{
     width: 32%;
     min-height: 300px;
     display: flex;
@@ -44,11 +44,25 @@
     cursor: pointer;
 }
 
- .mobile{
+.project::before, .mobile{
+    width: 32%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+ /* .mobile{
     width: 32%;
     height: 700px;
     position: relative;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
 
 .mobile img{
     width: 100%;
@@ -63,16 +77,17 @@
 }
 
 .projectFoot{
+    display: none;
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    width:max-content;
     height: auto;
-    background-color: #524b4be5;
+    background-color:#413d40;
     color: #ffffff;
-    display: flex;
+    gap: 5rem;
+    border-radius: 5px;
     align-items: center;
     justify-content: space-between;
-    padding: 1.1rem 1rem;
+    padding: 0.7rem 1rem;
 }
 
 .projectFoot h1, .mobileFoot h1{
@@ -91,15 +106,24 @@
 
 .mobileFoot{
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 8%;
+    width:max-content;
+    height: auto;
     background-color:#413d40;
     color: #ffffff;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem; 
+    gap: 5rem;
+    padding: 0.7rem 1rem; 
+    border-radius: 5px;
+}
+
+.project:hover .projectFoot{
+    display: flex;
+}
+
+.mobile:hover .mobileFoot{
+    display: flex;
 }
 
 @media (min-width: 250px) and (max-width: 1024px){

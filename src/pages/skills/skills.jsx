@@ -37,6 +37,18 @@ const Skills = () => {
                 <div className='skill' id='col3'>
                     <h1>react-native</h1>
                 </div>
+                <div className='skill' id='col4'>
+                    <h1>seo</h1>
+                </div>
+                <div className='skill' id='col3'>
+                    <h1>content management systems</h1>
+                </div>
+                <div className='skill' id='col1'>
+                    <h1>ecommerce</h1>
+                </div>
+                <div className='skill' id='col2'>
+                    <h1>automations/integrations</h1>
+                </div>
                 <div className='skill' id='col1'>
                     <h1>node(express,nest)</h1>
                 </div>

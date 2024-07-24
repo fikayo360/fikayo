@@ -62,12 +62,12 @@ const Hero = () => {
             </div>
             <div id="heroOther"> 
                 <img src='./hero1.png'/>
-                {/* <p id='pOther1'>hi, i am Fikayo. I am a fullstack developer </p> */}
+               
                 <TypeAnimation
                     sequence={[
-                        // Same substring at the start will only be typed out once, initially
+                        
                         'hi i am fikayo.',
-                        5000, // wait 1s before replacing "Mice" with "Hamsters"
+                        5000,
                         'i am a fullstack developer',
                         10000
                     ]}
