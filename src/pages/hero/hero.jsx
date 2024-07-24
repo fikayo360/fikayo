@@ -20,7 +20,7 @@ const Hero = () => {
 
     useGSAP(()=>{
         gsap.from('.nmItems',{
-            duration: 1,
+            duration: 2,
             x: '-100%',
             stagger: 0.15, 
             ease: 'power3.inOut',

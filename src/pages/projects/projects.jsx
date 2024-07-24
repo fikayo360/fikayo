@@ -68,11 +68,11 @@ const Projects = () => {
                <div className='projects'>
                <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>movie reservation system express js</h1> <a href='https://github.com/fikayo360/movieExpress'>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>movie reservation express</h1> <a href='https://github.com/fikayo360/movieExpress'>github</a></div>
                 </div>
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
-                    <div className='projectFoot'><h1 className='projectName'>movie reservation system nest js</h1> <a href='https://github.com/fikayo360/movieNest'>github</a></div>
+                    <div className='projectFoot'><h1 className='projectName'>movie reservation nest js</h1> <a href='https://github.com/fikayo360/movieNest'>github</a></div>
                 </div>
                 <div className='project'>
                     <img src='https://images.pexels.com/photos/6466141/pexels-photo-6466141.jpeg?auto=compress&cs=tinysrgb&w=600'/>
